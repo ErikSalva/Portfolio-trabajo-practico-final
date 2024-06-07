@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="header-nav">
             <a href="">About</a>
             <a href="">Services</a>
             <a href="">Experience</a>
@@ -17,114 +17,150 @@
     </header>
     <main>
         <!-- inicio Hero-->
-        <Section>
-            <h1>Hi, i'm <br>Erik</h1>
-            <h2>I'm web developer</h2>
-            <img src="" alt="">
+        <Section class="hero">
+            <div class="hero-content">
+                <h1>Hola, soy <br>Erik</h1>
+                <button>Contacto</button>
+                <button>Skills</button>
+                <h2>Soy un desarrolador web</h2>
+            </div>
+            <img src="" alt="" class="hero-image">
         </Section>
         <!-- fin Hero-->
 
         <!-- Inicio Seccion de tecnologias-->
-        <Section>
-            <div class="cuadros">
+        <Section class="tecno">
+            <div class="tecno-cuadros">
                 <a href=""></a>
                 <p>Html</p>
             </div>
-            <div class="cuadros">
+            <div class="tecno-cuadros">
                 <a href=""></a>
                 <p>Css</p>
             </div>
-            <div class="cuadros">
+            <div class="tecno-cuadros">
                 <a href=""></a>
                 <p>Python</p>
             </div>
-            <div class="cuadros">
+            <div class="tecno-cuadros">
                 <a href=""></a>
                 <p>C#</p>
             </div>
         </Section>
         <!-- Fin Seccion de tecnologias-->
         
-        <Section>
-            <h2>About me</h2>
+        <!-- Inicio Seccion de about-->
+        <Section class="about">
+            <div class="about-description">
+                <h2>About me</h2>
+            <h3>Introducción</h3>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est ad aliquid deserunt fugiat aspernatur fugit similique porro perspiciatis distinctio, sint, pariatur tempora quasi libero unde corrupti hic repellendus et voluptatibus! Itaque hic sed commodi, unde, quod recusandae impedit neque cupiditate eius magni autem laborum, similique amet debitis. Voluptatem, voluptas autem?</p>
+            </div>
+            <img src="" alt="" class="about-image" >
         </Section>
+        <!-- Fin Seccion de about-->
 
-        <Section>
+        <!-- Inicio Seccion de services-->
+
+        <Section class="services">
             <h2>What i do as a web developer</h2>
-            <div class="what-i-do">
-                <img src="" alt="">
-                <h3>Web UIUX Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit officiis et ullam natus atque nulla, odio totam quam? Similique, provident?</p>
-                <button>GET STARTED</button>
+            <div class="what-i-do-container">
+                <div class="what-i-do">
+                    <img src="" alt="">
+                    <h3>Web UIUX Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit officiis et ullam natus atque nulla, odio totam quam? Similique, provident?</p>
+                    <button>GET STARTED</button>
+                </div>
+                <div class="what-i-do">
+                    <img src="" alt="">
+                    <h3>App UIUX Design</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa voluptate ullam nemo? Quo voluptate aliquam laudantium sed dolorum! Provident, expedita.</p>
+                    <button>GET STARTED</button>
+                </div>
+                <div class="what-i-do">
+                    <img src="" alt="">
+                    <h3>Dashboard & Saas</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam molestiae eaque vitae cum quis ex voluptatibus natus nulla dolorum quam.</p>
+                    <button>GET STARTED</button>
+                </div>
             </div>
-            <div class="what-i-do">
-                <img src="" alt="">
-                <h3>App UIUX Design</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa voluptate ullam nemo? Quo voluptate aliquam laudantium sed dolorum! Provident, expedita.</p>
-                <button>GET STARTED</button>
-            </div>
-            <div class="what-i-do">
-                <img src="" alt="">
-                <h3>Dashboard & Saas</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam molestiae eaque vitae cum quis ex voluptatibus natus nulla dolorum quam.</p>
-                <button>GET STARTED</button>
-            </div>
+            
         </Section>
+        <!-- Fin Seccion de services-->
 
-        <Section>
-            <h2>Skills</h2>
+        <!-- Inicio Seccion de skills-->
+        
+        <Section class="skills">
 
-            <div>
-                <P>Html</P>
-                <div></div>
-            </div>
-            <div>
-                <P>Css</P>
-                <div></div>
-            </div>
-            <div>
-                <P>Python</P>
-                <div></div>
-            </div>
-            <div>
-                <P>C#</P>
-                <div></div>
-            </div>
+            <div class="skills-description">
+                <h2>Skills</h2>
 
-            <img src="" alt="">
+                <div>
+                    <P>Html</P>
+                    <div></div>
+                </div>
+                <div>
+                    <P>Css</P>
+                    <div></div>
+                </div>
+                <div>
+                    <P>Python</P>
+                    <div></div>
+                </div>
+                <div>
+                    <P>C#</P>
+                    <div></div>
+                </div>
+            </div>
+            
+            <img src="" alt="" class="skills-image">
             
         </Section>
 
-        <Section>
-            <h2>Recent projects</h2>
-            <p>View All</p>
-            <div>
+        <!-- Fin Seccion de skills-->
+
+        <!-- Inicio Seccion de proyectos recientes-->
+
+        <Section class="recent-projects">
+            <div class="recent-projects-titles">
+                <h2>Recent projects</h2>
+                <p>View All</p>
             </div>
+            <img src="" alt="" class="recent-projects-image">
         </Section>
+        <!-- Fin Seccion de proyectos recientes-->
 
+        <!-- Inicio Seccion de portfolio-->
 
-        <Section>
+        <Section class="portfolio">
             <h2>Check out my portfolio</h2>
-        </Section>
-            <div>
+            <div class="portofolio-titles">
                 <Button>All projects</Button>
                 <Button>WEB UIUX</Button>
                 <Button>APP UIUX</Button>
                 <Button>DASHBOARD & SAAS</Button>
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="portfolio-images">
+                <img src="" alt="" class="portfolio-proyect">
+                <img src="" alt="" class="portfolio-proyect">
+                <img src="" alt="" class="portfolio-proyect">
+                <img src="" alt="" class="portfolio-proyect">
+            </div>
             <button>Load more proyects</button>
+        </Section>
+        <!-- Fin Seccion de portfolio-->
+          
 
-        <Section>
+        <!-- Inicio Seccion de contacto-->
 
-            <h2>let make something<br>amazing together</h2>
-            <p>You can contact me <span>here!</span></p>
-            <div>
-                <h3></h3>
+        <Section class="contact">
+
+            <div class="contact-text">
+                <h2>let make something<br>amazing together</h2>
+                <p>You can contact me <span>here!</span></p>
+            </div>
+            <div class="contact-form">
+                <h3>Dejame un mensaje</h3>
                 <form>
                     <label for="">Full name</label>
                     <input type="text" name="" id="">
@@ -136,42 +172,56 @@
                 </form>
             </div>
         </Section>
+        <!-- Fin Seccion de contacto-->
+
     </main>
+    <!-- Fin del main-->
+
 
     <footer>
-        <Section>
+        <!-- Inicio Seccion de boletin informativo-->
+        <Section class="newsletter">
             <P>Newsletter</P>
-            <input type="email">
-            <button>Icono de enviar</button>
+            <div class="newsletter-button">
+                <input type="email">
+                <button>Icono de enviar</button>
+            </div>
         </Section>
+        <!-- Fin Seccion de boletin informativo-->
 
-        <Section>
-            <nav>
+        <!-- Inicio Seccion de links de la pagina-->
+
+        <Section class="quick-links">
+            <nav class="quick-links-nav">
                 <a href="">About</a>
                 <a href="">Services</a>
                 <a href="">Experience</a>
                 <a href="">Resume</a>
                 <a href="">Contact</a>
             </nav>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <img src="" alt="">
+                
+            <div class="social-media">
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <img src="" alt="">
+                </div>
             </div>
 
-            <p>Copyright 2024 - Erik Salvatierra(Web Developer)</p>
-
+            <p class="copyright-information">Copyright 2024 - Erik Salvatierra(Web Developer)</p>
         </Section>
+        <!-- Fin Seccion de links de la pagina-->
+
     </footer>
 </body>
 </html>
