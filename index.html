@@ -4,84 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
     <header class="header">
-        <nav class="header-nav">
-            <a href="">About</a>
-            <a href="">Services</a>
-            <a href="">Experience</a>
-            <a href="">Resume</a>
-            <a href="">Contact</a>
-        </nav>
+        <div class="header-content">
+            <nav class="header-nav">
+                <a href="" class="header-nav-item">About</a>
+                <a href="" class="header-nav-item">Services</a>
+                <a href="" class="header-nav-item">Experience</a>
+                <a href="" class="header-nav-item">Resume</a>
+                <a href="" class="header-nav-item">Contact</a>
+            </nav>
+        </div>
+        
     </header>
     <main>
         <!-- inicio Hero-->
         <Section class="hero">
             <div class="hero-content">
-                <h1>Hola, soy <br>Erik</h1>
-                <button>Contacto</button>
-                <button>Skills</button>
-                <h2>Soy un desarrolador web</h2>
+                <div class="hero-text">
+                    <h1 class="hero-title color-title">Hola, soy <br>Erik</h1>
+                    <h2 class="hero-subtitle color-title">soy un Desarrolador Web</h2>
+                    <div class="hero-button-container">
+                        <a href="" class="hero-button-contact">Contacto</a>
+                        <a href="" class="hero-button-skills">Skills</a>
+                    </div>
+                    
+                </div>
+                <!--
+                <div class="hero-image-container">
+                <img src="img/hero-image.svg" alt="" class="hero-image">
+                </div>
+                <img src="img/hero-image.svg" alt="" class="hero-image">
+                --> 
             </div>
-            <img src="" alt="" class="hero-image">
+            
         </Section>
         <!-- fin Hero-->
 
         <!-- Inicio Seccion de tecnologias-->
         <Section class="tecno">
-            <div class="tecno-cuadros">
-                <a href=""></a>
-                <p>Html</p>
+            <div class="tecno-content">
+                <div class="tecno-cuadros">
+                    <img src="img/python-logo-svg.svg" alt="">
+                    <p>Html</p>
+                </div>
+
+                <div class="tecno-cuadros">
+                    <img src="img/python-logo-svg.svg" alt="">
+                    <p>Css</p>
+                </div>
+
+                <div class="tecno-cuadros">
+                    <img src="img/python-logo-svg.svg" alt="">
+                    <p>Python</p>
+                </div>
+                <div class="tecno-cuadros">
+                    <img src="img/python-logo-svg.svg" alt="">
+                    <p>C#</p>
+                </div>
             </div>
-            <div class="tecno-cuadros">
-                <a href=""></a>
-                <p>Css</p>
-            </div>
-            <div class="tecno-cuadros">
-                <a href=""></a>
-                <p>Python</p>
-            </div>
-            <div class="tecno-cuadros">
-                <a href=""></a>
-                <p>C#</p>
-            </div>
+            
         </Section>
+
         <!-- Fin Seccion de tecnologias-->
         
         <!-- Inicio Seccion de about-->
         <Section class="about">
-            <div class="about-description">
-                <h2>About me</h2>
-            <h3>Introducción</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est ad aliquid deserunt fugiat aspernatur fugit similique porro perspiciatis distinctio, sint, pariatur tempora quasi libero unde corrupti hic repellendus et voluptatibus! Itaque hic sed commodi, unde, quod recusandae impedit neque cupiditate eius magni autem laborum, similique amet debitis. Voluptatem, voluptas autem?</p>
+            <div class="about-content">
+                <div class="about-description">
+                    <h2 class="color-title">About me</h2>
+                    <h3 class="color-title">Introducción</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est ad aliquid deserunt fugiat aspernatur fugit similique porro perspiciatis distinctio, sint, pariatur tempora quasi libero unde corrupti hic repellendus et voluptatibus! Itaque hic sed commodi, unde, quod recusandae impedit neque cupiditate eius magni autem laborum, similique amet debitis. Voluptatem, voluptas autem?</p>
+                </div>
+                <img src="/img/about-image.jpg" alt="" class="about-image">
+
             </div>
-            <img src="" alt="" class="about-image" >
+            
         </Section>
+
         <!-- Fin Seccion de about-->
+ 
 
         <!-- Inicio Seccion de services-->
 
         <Section class="services">
-            <h2>What i do as a web developer</h2>
-            <div class="what-i-do-container">
-                <div class="what-i-do">
-                    <img src="" alt="">
+
+            <h2 class="services-title color-title">What i do as a web developer</h2>
+            <div class="services-container">
+                <div class="service service-one">
+                    <img src="img/python-logo-svg.svg" alt="">
                     <h3>Web UIUX Design</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit officiis et ullam natus atque nulla, odio totam quam? Similique, provident?</p>
-                    <button>GET STARTED</button>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit officiis et ullam natus</p>
+                    <a href="" class="services-button">GET STARTED</a>
                 </div>
-                <div class="what-i-do">
-                    <img src="" alt="">
+                <div class="service service-two">
+
+                    <img src="img/python-logo-svg.svg" alt="">
                     <h3>App UIUX Design</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa voluptate ullam nemo? Quo voluptate aliquam laudantium sed dolorum! Provident, expedita.</p>
-                    <button>GET STARTED</button>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit officiis et ullam natus</p>
+                    <a href="" class="services-button">GET STARTED</a>
+
                 </div>
-                <div class="what-i-do">
-                    <img src="" alt="">
+                <div class="service service-three">
+                    <img src="img/python-logo-svg.svg" alt="">
                     <h3>Dashboard & Saas</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam molestiae eaque vitae cum quis ex voluptatibus natus nulla dolorum quam.</p>
-                    <button>GET STARTED</button>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam molestiae eaque</p>
+                    <a href="" class="services-button">GET STARTED</a>
+
+               
                 </div>
             </div>
             

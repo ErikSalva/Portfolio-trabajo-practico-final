@@ -1,0 +1,237 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    background-color: #fcfbf2;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0;
+}
+
+.header-nav{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+    box-sizing: border-box;
+    
+}  
+ 
+.header-nav-item{
+    color: #131212;
+    text-decoration: none;
+    font-size: 12px;
+    transition: all 0.5s;
+}
+
+.header-nav-item:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #18e738;
+    text-decoration-thickness: 0.2em;
+    text-underline-offset: 0.3em;
+
+}
+
+
+
+.hero{
+    padding: 0 15%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.hero-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    background-image: url('../img/hero-image.svg');
+    background-repeat: no-repeat;
+    background-position: 80%;
+
+}
+
+.color-title{
+    color: rgb(50,51,51);
+}
+
+.hero-title{
+    font-size: 96px;
+    margin: 0;
+
+}
+
+.hero-subtitle{
+    font-size: 24px;
+    margin: 30px 0;
+}
+
+.hero-button-contact{
+    background-color: #18e738;
+    padding: 7px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.5s;
+
+}
+
+.hero-button-container{
+    margin-top: 6%;
+}
+
+.hero-button-skills{
+    background-color: white;
+    padding: 7px 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ff6253;
+    font-weight: 600;
+    font-size: 14px;
+    border: solid 1px #ff6253;
+    transition: all 0.5s;
+    margin-left: 8%;
+    
+}
+
+.hero-button-contact:hover{
+    background-color: #ff6253;
+}
+
+.hero-button-skills:hover{
+    background-color: #ff6253;
+    color: white;
+}
+
+.tecno{
+    background-color: rgb(50,51,51);
+    color: white;
+  
+}
+
+.tecno-content{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+
+}
+
+.tecno-cuadros{
+
+    font-size: 14px;
+    font-weight: 600;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 10px 10px 0;
+
+}
+.tecno-cuadros > img{
+    width: 40%;
+}
+
+.about{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 15%;
+}
+
+.about-content{
+    display: flex;
+}
+
+.about-description{
+    width: 50%;
+}
+
+.about-image{
+    width: 200px;
+    border: solid 1px;
+}
+
+
+.services{
+    text-align: center;
+    padding: 3% 15%;
+}
+
+.services-title{
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.services-container{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.service{
+    border: solid black 4px;
+    width: 28%;
+    padding: 3%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 8px 0 0 0 #000;
+
+}
+
+.service-one{
+    background-color: #9ea9fe;
+}
+
+.service-two{
+    background-color: #b2fe77;
+}
+
+.service-three{
+    background-color: #fee063;
+}
+
+.services-container h3{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.services-button{
+    background-color: white;
+    padding: 8px 40px;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    background-image: url('../img/arrow-right-solid.svg');
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size: 8%;
+    transition: all 0.8s;
+   
+}
+
+
+.services-button:hover{
+    background-color: #ff6253;
+    color: white;
+    background-image: url('../img/arrow-right-solid-white.svg');
+
+}
