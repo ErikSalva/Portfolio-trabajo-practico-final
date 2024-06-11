@@ -1,0 +1,857 @@
+@media (max-width:319px){
+    
+
+    :root{
+        
+        --nav-item-font-size: 8px;
+        --hero-title-font-size: 55px;
+        --subtitle-font-size: 16px;
+        --about-introduction-font-size: 14px;
+        --description-font-size: 10px;
+        --skill-bar-height: 5px;
+        --view-font-size: 12px;
+        --height-recent-projects-image-container: 200px;
+        --height-portfolio-project-container:150px;
+    }
+
+
+    .header{
+        background-color: rgb(50,51,51);
+
+    }
+
+
+    .header-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .header-list{
+        display: block;
+        color: white;
+        font-size: 40px;
+    }
+
+    .header-nav{
+        display: none;
+    }
+
+
+
+
+
+    .hero-content{
+        background-image: none;
+        height: 60vh;
+
+    }
+    .hero-text{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 35% 0 0 0;
+        box-sizing: border-box;
+
+    }
+    
+    .hero-button-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        height:100%;        
+
+    }
+
+    .hero-subtitle{
+        margin: 15px 0;
+    }
+
+    .hero-button-container{
+        margin-top: 0;
+    }
+
+    .hero-button-contact{
+        padding: 8px 25px;
+    }
+    
+    
+    .hero-button-skills{
+        padding: 8px 40px;
+        
+    }
+
+    
+    .tecno-content{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .tecno-cuadros{
+        width: 30%;
+    }
+
+    .about-description{
+        width: 100%;
+    
+    }
+
+    .about-image-container{
+        display: none;
+    }
+
+
+
+    .services-container{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+
+    .service{
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+
+    .services-button{
+        padding: 10px 30px;
+    }
+
+    .skills-description{
+        width: 100%;
+    }
+
+    .skills-image-container{
+
+        display: none;
+    }
+
+
+
+    .recent-projects-image-container{
+        padding: 0;
+
+    }
+
+    .button-carrusel {
+       display: none;
+    }
+
+
+       
+    
+    .portfolio-buttons{
+        padding: 2% 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+
+    .portfolio-images{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .portfolio-project-container{
+        width: 100%;
+    }
+
+    .contact-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form-container{
+        width: 100%;
+    }
+    
+    .contact-form{
+        width: 100%;
+    }
+
+
+
+
+    .newsletter-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .newsletter-content > p {
+        width: 100%;
+        
+    }
+
+    .newsletter-button{
+        
+        display: flex;
+        text-align: center;
+        width: 100%;
+    
+    }
+
+    .newsletter-input{
+        height: 50%;
+        border-radius: 20px;
+        border: none;   
+        padding: 10px 30px 10px 25px;
+        box-sizing: border-box;
+        margin-top: 5px;
+
+    
+    }
+
+    .newsletter-button-icon > img{
+        width: 100%;
+    }
+    
+
+    .newsletter-button-icon{
+        padding: 6px;
+        width: 25px;
+        height: 25px;
+        transform: translateX(-145%);
+
+    }
+
+}
+
+
+
+@media(min-width: 320px) and (max-width:480px){
+    
+    
+    :root{
+        
+        --nav-item-font-size: 8px;
+        --hero-title-font-size: 55px;
+        --subtitle-font-size: 16px;
+        --about-introduction-font-size: 14px;
+        --description-font-size: 10px;
+        --skill-bar-height: 5px;
+        --view-font-size: 12px;
+        --height-recent-projects-image-container: 200px;
+        --height-portfolio-project-container:150px;
+    }
+
+    .header{
+        background-color: rgb(50,51,51);
+
+    }
+
+
+    .header-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .header-list{
+        display: block;
+        color: white;
+        font-size: 40px;
+    }
+
+    .header-nav{
+        display: none;
+    }
+
+
+
+
+
+    .hero-content{
+        background-image: none;
+        height: 80vh;
+
+    }
+    .hero-text{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        box-sizing: border-box;
+
+    }
+
+    .hero-button-container{
+        width: 100%;
+
+    }
+
+    .hero-subtitle{
+        margin: 15px 0;
+    }
+
+
+    .hero-button-contact{
+        padding: 8px 25px;
+    }
+    
+    
+    .hero-button-skills{
+        padding: 8px 40px;
+        
+    }
+
+    
+    .tecno-content{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .tecno-cuadros{
+        width: 30%;
+    }
+
+    .about-description{
+        width: 100%;
+    
+    }
+
+    .about-image-container{
+        display: none;
+    }
+
+
+
+    .services-container{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+
+    .service{
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+
+    .services-button{
+        padding: 10px 30px;
+    }
+
+    .skills-description{
+        width: 100%;
+    }
+
+    .skills-image-container{
+
+        display: none;
+    }
+
+
+
+    .recent-projects-image-container{
+        padding: 0;
+
+    }
+
+    .button-carrusel {
+       display: none;
+    }
+    
+    .portfolio-buttons{
+        padding: 2% 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+
+    .portfolio-images{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .portfolio-project-container{
+        width: 100%;
+    }
+
+    .contact-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form-container{
+        width: 100%;
+    }
+    
+    .contact-form{
+        width: 100%;
+    }
+
+
+
+
+    .newsletter-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .newsletter-content > p {
+        width: 100%;
+        
+    }
+
+    .newsletter-button{
+        
+        display: flex;
+        text-align: center;
+        width: 100%;
+    
+    }
+
+    .newsletter-input{
+        height: 50%;
+        border-radius: 20px;
+        border: none;   
+        padding: 10px 30px 10px 25px;
+        box-sizing: border-box;
+        margin-top: 5px;
+
+    
+    }
+
+    .newsletter-button-icon > img{
+        width: 100%;
+    }
+    
+
+    .newsletter-button-icon{
+        padding: 6px;
+        width: 25px;
+        height: 25px;
+        transform: translateX(-145%);
+
+    }
+
+}
+
+
+@media(min-width: 480px) and (max-width: 767px) {
+
+    :root{
+        
+        --nav-item-font-size: 8px;
+        --hero-title-font-size: 55px;
+        --subtitle-font-size: 16px;
+        --about-introduction-font-size: 14px;
+        --description-font-size: 10px;
+        --skill-bar-height: 5px;
+        --view-font-size: 12px;
+        --height-recent-projects-image-container: 200px;
+        --height-portfolio-project-container:175px;
+    }
+    .header{
+        background-color: rgb(50,51,51);
+
+    }
+
+
+    .header-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .header-list{
+        display: block;
+        color: white;
+        font-size: 40px;
+    }
+
+    .header-nav{
+        display: none;
+    }
+
+
+
+
+
+    .hero-content{
+        background-image: none;
+        height: 80vh;
+
+    }
+    .hero-text{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        box-sizing: border-box;
+
+    }
+
+    .hero-button-container{
+        width: 65%;
+    }
+
+    .hero-subtitle{
+        margin: 15px 0;
+    }
+
+
+
+    
+    
+    .tecno-content{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .tecno-cuadros{
+        width: 30%;
+    }
+
+    .about-description{
+        width: 100%;
+    
+    }
+
+    .about-image-container{
+        display: none;
+    }
+
+    
+    .services-container{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+
+    .service{
+        width: 70%;
+        margin-bottom: 15%;
+    }
+
+
+    .services-button{
+        padding: 10px 30px;
+    }
+
+
+
+
+    .skills-description{
+        width: 100%;
+    }
+
+    .skills-image-container{
+
+        display: none;
+    }
+
+
+    
+    .recent-projects-image-container{
+        padding: 0;
+
+    }
+
+    .button-carrusel {
+       display: none;
+    }
+
+
+       
+    
+    .portfolio-buttons{
+        padding: 2% 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+
+    .portfolio-images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .portfolio-project-container{
+        width: 70%;
+        
+    }
+
+    .contact-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form-container{
+        width: 100%;
+    }
+    
+    .contact-form{
+        width: 100%;
+    }
+
+
+
+}
+
+
+@media(min-width: 768px) and (max-width: 1023px){
+
+    :root{
+        
+        --nav-item-font-size: 10px;
+        --hero-title-font-size: 75px;
+        --subtitle-font-size: 22px;
+        --about-introduction-font-size: 18px;
+        --description-font-size: 12px;
+        --skill-bar-height: 5px;
+        --view-font-size: 16px; 
+        --height-recent-projects-image-container: 300px;
+        --height-portfolio-project-container:250px;
+    }
+    .header{
+        background-color: rgb(50,51,51);
+
+    }
+
+
+    .header-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .header-list{
+        display: block;
+        color: white;
+        font-size: 40px;
+    }
+
+    .header-nav{
+        display: none;
+    }
+
+
+
+
+
+    .hero-content{
+        background-image: none;
+        height: 80vh;
+
+    }
+    .hero-text{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        box-sizing: border-box;
+
+    }
+
+    .hero-button-container{
+        width: 50%;
+    }
+
+    .hero-subtitle{
+        margin: 15px 0;
+    }
+
+
+
+        
+    .services-container{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+
+    .service{
+        width: 50%;
+        margin-bottom: 15%;
+    }
+
+
+    .services-button{
+        padding: 10px 30px;
+    }
+
+
+    .portfolio-buttons{
+        padding: 2% 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+
+    .portfolio-images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .portfolio-project-container{
+        width: 65%;
+    }
+
+    .contact-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form-container{
+        width: 100%;
+    }
+    
+    .contact-form{
+        width: 100%;
+    }
+
+
+
+}
+
+
+@media(min-width: 1024px) and (max-width: 1279px){
+
+    :root{
+        
+        --nav-item-font-size: 10px;
+        --hero-title-font-size: 75px;
+        --subtitle-font-size: 22px;
+        --about-introduction-font-size: 18px;
+        --description-font-size: 11px;
+        --skill-bar-height: 5px;
+        --view-font-size: 16px; 
+        --height-recent-projects-image-container: 400px;
+        --height-portfolio-project-container:250px;
+    }
+
+    
+}
+
+
+
+@media(min-width: 1280px) and (max-width: 1439px){
+
+    :root{
+        
+        --nav-item-font-size: 10px;
+        --hero-title-font-size: 75px;
+        --subtitle-font-size: 22px;
+        --about-introduction-font-size: 18px;
+        --description-font-size: 12px;
+        --skill-bar-height: 5px;
+        --view-font-size: 16px; 
+        --height-recent-projects-image-container: 500px;
+        --height-portfolio-project-container:300px;
+    }
+
+
+
+}
+
+
+@media(min-width: 1440px) and (max-width: 1919px){
+
+    :root{
+        
+        --nav-item-font-size: 12px;
+        --hero-title-font-size: 90px;
+        --subtitle-font-size: 28px;
+        --about-introduction-font-size: 18px;
+        --description-font-size: 14px;
+        --skill-bar-height: 5px;
+        --view-font-size: 16px; 
+        --height-recent-projects-image-container: 520px;
+        --height-portfolio-project-container:320px;
+    }
+
+    .hero-content{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-image: url('../img/hero-image.png');
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position-x: 100%;
+        background-position-y: center;
+    
+    }
+
+
+}
+
+@media(min-width: 1920px){
+
+    :root{
+        
+        --nav-item-font-size: 12px;
+        --hero-title-font-size: 96px;
+        --subtitle-font-size: 35px;
+        --about-introduction-font-size: 22px;
+        --description-font-size: 16px;
+        --skill-bar-height: 7px;
+        --view-font-size: 18px; 
+        --height-recent-projects-image-container: 675px;
+        --height-portfolio-project-container:450px;
+    }
+
+
+    .hero-content{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-image: url('../img/hero-image.png');
+        background-repeat: no-repeat;
+        background-size: 70%;
+        background-position-x: 80%;
+        background-position-y: center;
+    
+    }
+
+
+}
