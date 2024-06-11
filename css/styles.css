@@ -119,6 +119,11 @@ body{
     font-weight: 800;
 }
 
+.hero-subtitle-punto{
+    font-size: var(--subtitle-font-size);
+    color: #18e738;
+}    
+
 
 .hero-button-container{
     margin-top: 6%;
