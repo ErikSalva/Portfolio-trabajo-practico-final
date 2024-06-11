@@ -48,7 +48,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 
@@ -58,9 +58,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between  ;
-    background-image: url('../img/hero-image.svg');
+    background-image: url('../img/hero-image.png');
     background-repeat: no-repeat;
-    background-position: 80%;
+    background-size: 80%;
+    background-position-x: 140%;
+    background-position-y: center;
 
 }
 
@@ -170,14 +172,24 @@ body{
     width: 50%;
 }
 
-.about-image{
+
+.about-image-container{
     width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.about-image{
+    width: 100%;
+}
+
 
 
 .services{
     text-align: center;
     padding: 3% 15%;
+
+
 }
 
 .services-title{
@@ -188,18 +200,42 @@ body{
 .services-container{
     margin-top: 5%;
     display: flex;
+    align-items: stretch;
     justify-content: space-between;
 
 }
+
+.services-container h3{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.services-container p{
+    font-size: 14px;
+    line-height: 1.5;
+
+}
+
 .service{
     border: solid black 4px;
     width: 28%;
     padding: 3%;
     box-sizing: border-box;
+
+    overflow: auto; 
     border-radius: 15px;
     box-shadow: 8px 0 0 0 #000;
 
+    display: flex;
+    flex-direction: column;
+
 }
+
+.services-content{
+    height: 70%;
+}
+
+
 
 .service-one{
     background-color: #9ea9fe;
@@ -213,25 +249,33 @@ body{
     background-color: #fee063;
 }
 
-.services-container h3{
-    font-weight: 800;
-    font-size: 20px;
+
+.services-button-container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 5%;
+    height: 30%;
 }
+
+
+
 
 .services-button{
     background-color: white;
-    padding: 8px 40px;
+    padding: 15px 40px;
     color: black;
     text-decoration: none;
     border-radius: 20px;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 800;
     background-image: url('../img/arrow-right-solid.svg');
     background-repeat: no-repeat;
-    background-position: 90%;
+    background-position: 85%;
     background-size: 8%;
     transition: all 0.8s;
-   
+
+
 }
 
 
@@ -239,8 +283,13 @@ body{
     background-color: #ff6253;
     color: white;
     background-image: url('../img/arrow-right-solid-white.svg');
-
 }
+
+
+.services-image{
+    width: 35%;
+}
+
 
 
 .skills{
@@ -269,8 +318,15 @@ body{
     font-weight: 800;
 
 }
-.skills-image{
+
+.skills-image-container{
     width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills-image{
+    width: 100%;
 }   
 
 .skill-bar {
@@ -381,11 +437,8 @@ body{
 .recent-proyects-image-background{
     height: 100%;
     width: 100%;
-    background-color: white;
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
     overflow: hidden;
     box-sizing: border-box;
     box-shadow: 0 0 5px 1px #898989;
@@ -393,6 +446,12 @@ body{
 
 .recent-projects-image{
     width: 100%;
+    position: absolute;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .portfolio{
@@ -452,11 +511,19 @@ body{
     border-radius: 10px;    
     border: solid 4px #fcfbf2;
     transition: all 0.5s;
+    position: relative;
+
 
 }
 
 .portfolio-proyect{
     width: 100%;
+    position: absolute;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .portfolio-project-container:hover{
