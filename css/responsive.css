@@ -231,7 +231,7 @@
 
 
 
-@media(min-width: 320px) and (max-width:480px){
+@media (min-width: 319px) and (max-width:479px){
     
     
     :root{
@@ -281,7 +281,7 @@
 
     }
     .hero-text{
-        width: 100%;
+        width: 90%;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -292,7 +292,7 @@
     }
 
     .hero-button-container{
-        width: 100%;
+        width: 90%;
 
     }
 
@@ -452,7 +452,7 @@
 }
 
 
-@media(min-width: 480px) and (max-width: 767px) {
+@media (min-width: 479px) and (max-width: 767px) {
 
     :root{
         
@@ -625,7 +625,7 @@
 }
 
 
-@media(min-width: 768px) and (max-width: 1023px){
+@media (min-width: 767px) and (max-width: 1023px){
 
     :root{
         
@@ -751,7 +751,7 @@
 }
 
 
-@media(min-width: 1024px) and (max-width: 1279px){
+@media (min-width: 1023px) and (max-width: 1279px){
 
     :root{
         
@@ -771,7 +771,7 @@
 
 
 
-@media(min-width: 1280px) and (max-width: 1439px){
+@media (min-width: 1279px) and (max-width: 1439px){
 
     :root{
         
@@ -791,7 +791,7 @@
 }
 
 
-@media(min-width: 1440px) and (max-width: 1919px){
+@media (min-width: 1439px) and (max-width: 1919px){
 
     :root{
         
@@ -823,7 +823,7 @@
 
 }
 
-@media(min-width: 1920px){
+@media (min-width: 1919px){
 
     :root{
         
